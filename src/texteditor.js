@@ -3,7 +3,14 @@ import FontSelect from './FontFamily';
 import FontWeight from './FontWeight';
 import Italic from './ToggleItalic';
 import Editor from './Editor';
-
+<html>
+    <style>
+    body{
+    background-color: azure;
+    margin:1%;
+    }
+    </style>
+    </html>
 const TextEditor = () => {
     const [fontdata, setFontsData] = useState(null);
     const[fontfamily,setfontfamily] = useState();
